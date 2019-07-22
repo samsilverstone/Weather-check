@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div class="bg-image"></div>
+        <div class="body">
+             <div class="main-content">
+            {{>header}}
+            <form class="form">
+                <label for="input">Enter the Location</label>
+                <input id="input" type="text">
+                <button type="submit">SEARCH</button> 
+            </form>
+            <div id="data"></div>
+        </div>
+        
+        {{>footer}}
+        </div>     
+     <script src="js/index.js"></script>
+    </body>
+</html>
