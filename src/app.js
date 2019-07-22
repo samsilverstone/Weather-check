@@ -34,7 +34,7 @@ app.get('/about',(req,res)=>{
 app.get('/help',(req,res)=>{
     res.render('help',{
         title:'HELP',
-        info:'God helps those who helps themselves.'
+        info:'This site was created by Sanjay Sajwan.It uses data from mapbox.com and darksky.net.'
     })
 })
 
